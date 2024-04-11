@@ -26,9 +26,9 @@ public class Main {
 		
 		Busca_IF b = new Busca();
         
-		final int numeroParaBuscar = 3457; 
+		final int numeroParaBuscar = -1; 
     
-        final int[] vetor1000 = b.geraVetorNumericoOrdenado(14000);
+        final int[] vetor1000 = b.geraVetorNumericoOrdenado(1000);
         
         // Número de iterações para calcular a média
         int numIteracoes = 100;
